@@ -6,12 +6,23 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
-    "start": "react-native start",
-    "test": "jest"
+    "start": "react-native start --reset-cache",
+    "test": "jest",
+    "server": "json-server --watch db.json --port 3000"
   },
   "dependencies": {
+    "@gluestack-style/react": "^1.0.57",
+    "@gluestack-ui/config": "latest",
+    "@gluestack-ui/themed": "^1.1.54",
+    "@tanstack/react-query": "^5.59.9",
+    "axios": "^1.7.7",
     "react": "18.3.1",
-    "react-native": "0.75.4"
+    "react-native": "0.75.4",
+    "react-native-gesture-handler": "^2.20.0",
+    "react-native-reanimated": "^3.15.4",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-screens": "^3.34.0",
+    "react-native-svg": "13.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

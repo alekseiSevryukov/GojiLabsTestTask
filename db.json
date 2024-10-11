@@ -1,0 +1,9 @@
+{
+  "groceryList": [
+    {
+      "id": "1",
+      "task": "2 l of milk",
+      "completed": false
+    }
+  ]
+}

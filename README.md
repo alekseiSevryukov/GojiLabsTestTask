@@ -59,7 +59,9 @@ yarn lint
 ```
 
 ## Project Structure
-- `src/components`: Contains React components.
+- `src/screens`: Contains screens.
+- `src/components`: Contains components.
+- `src/api`: Contains API requests.
 - `src/queries`: Contains React Query hooks for API calls.
 - `db.json`: Mock database for JSON Server.
 

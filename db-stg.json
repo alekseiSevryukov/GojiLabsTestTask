@@ -1,0 +1,9 @@
+{
+  "groceryList": [
+    {
+      "id": "1",
+      "task": "2 pieces of bread",
+      "completed": false
+    }
+  ]
+}

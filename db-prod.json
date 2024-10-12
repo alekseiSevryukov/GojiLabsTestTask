@@ -1,0 +1,9 @@
+{
+  "groceryList": [
+    {
+      "id": "1",
+      "task": "3 kg of potatoes",
+      "completed": false
+    }
+  ]
+}

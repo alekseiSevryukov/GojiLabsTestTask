@@ -7,6 +7,7 @@ GojiLabsTestTask is a React Native application for managing a grocery list.
 - Add, edit, and delete grocery items.
 - Mark items as completed.
 - Swipe to delete items.
+- Environment-specific configurations.
 
 ## Technologies Used
 - TypeScript
@@ -40,17 +41,38 @@ GojiLabsTestTask is a React Native application for managing a grocery list.
 
 #### Start JSON Server
 ```bash
-yarn server
+# Development environment
+yarn server:dev
+
+# Staging environment
+yarn server:stg
+
+# Production environment
+yarn server:prod
 ```
 
 #### Run on Android
 ```bash
-yarn android
+# Development environment
+yarn android:dev
+
+# Staging environment
+yarn android:stg
+
+# Production environment
+yarn android:prod
 ```
 
 #### Run on iOS
 ```bash
-yarn ios
+# Development environment
+yarn ios:dev
+
+# Staging environment
+yarn ios:stg
+
+# Production environment
+yarn ios:prod
 ```
 
 ### Linting
@@ -58,12 +80,19 @@ yarn ios
 yarn lint
 ```
 
+### Testing
+```bash
+yarn test
+```
+
 ## Project Structure
 - `src/screens`: Contains screens.
 - `src/components`: Contains components.
 - `src/api`: Contains API requests.
 - `src/queries`: Contains React Query hooks for API calls.
-- `db.json`: Mock database for JSON Server.
+- `db-dev.json`: Mock database for JSON Server (development).
+- `db-stg.json`: Mock database for JSON Server (staging).
+- `db-prod.json`: Mock database for JSON Server (production).
 
 ## License
 This project is licensed under the MIT License.
